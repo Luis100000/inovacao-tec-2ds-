@@ -1,0 +1,15 @@
+# 1. Solicitar os 4 números via input e converter para float imediatamente
+# Usamos float() para permitir números decimais
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+num3 = float(input("Digite o terceiro número: "))
+num4 = float(input("Digite o quarto número: "))
+
+# 2. Calcular a média
+# Soma os valores e divide pela quantidade (4)
+soma = num1 + num2 + num3 + num4
+media = soma / 4
+
+# 3. Exibir o resultado com duas casas decimais
+# O formatador :.2f indica duas casas decimais
+print(f"A média dos números é: {media:.2f}")
